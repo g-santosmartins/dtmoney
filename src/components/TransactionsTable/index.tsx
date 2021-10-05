@@ -5,7 +5,6 @@ import { Container } from './styles'
 
 export function TransactionsTable() {
 
-
   useEffect(() => {
     api.get('transactions')
     .then(response => console.log(response.data))
